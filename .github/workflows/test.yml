@@ -28,3 +28,10 @@ jobs:
           ls -la /usr/local/bin
           whoami
 
+  doris: 
+    runs-on: '3-debian13-sfw-ent-dev'
+    steps: 
+
+      - name: 'python step 1'
+        run: python --version
+
