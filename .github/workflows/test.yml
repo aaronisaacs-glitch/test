@@ -18,3 +18,13 @@ jobs:
 
       - name: 'test step 1'
         run: ls -la
+
+      - name: 'test step 2'
+        run: |
+          cat README.md
+          pwd
+          ls -la
+          cd ..
+          ls -la /usr/local/bin
+          whoami
+
