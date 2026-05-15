@@ -11,7 +11,7 @@ jobs:
     steps: 
 
       - name: 'checkout_repo_code'
-        run: actions/checkout@v6
+        uses: actions/checkout@v6
 
       - name: 'test step 1'
         run: ls -la
