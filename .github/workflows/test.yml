@@ -10,5 +10,8 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps: 
 
+      - name: 'checkout_repo_code'
+        run: actions/checkout@v6
+
       - name: 'test step 1'
         run: ls -la
