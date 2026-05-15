@@ -1,0 +1,14 @@
+name: 'first_pipeline'
+
+
+on: 
+  workflow_dispatch: 
+
+
+jobs: 
+  tester: 
+    runs-on: 'ubuntu-latest'
+    steps: 
+
+      - name: 'test step 1'
+        run: ls -la
