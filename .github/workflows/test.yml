@@ -3,6 +3,9 @@ name: 'first_pipeline'
 
 on: 
   workflow_dispatch: 
+  push: 
+    branches: 
+      - 'main'
 
 
 jobs: 
